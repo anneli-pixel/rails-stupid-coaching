@@ -1,1 +1,13 @@
-<h1>Answer Page</h1>
+<h1>Your Coach's Answer</h1>
+
+<p>
+  <%= params[:question] %>
+  --You
+</p>
+
+<p>
+  <%= @answer %>
+  --Your coach
+</p>
+
+<%=  link_to "Ask another question", ask_path %>
